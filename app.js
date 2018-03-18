@@ -49,5 +49,6 @@ app.use(session({
 require('./app/server/routes')(app);
 
 http.createServer(app).listen(app.get('port'), function(){
+	console.log('dbURL: ' + dbURL);
 	console.log('Express server listening on port ' + app.get('port'));
 });

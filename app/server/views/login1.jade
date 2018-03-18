@@ -5,8 +5,8 @@ block content
 
 	#login.center-vertical
 		form.well(id='form-login', method='post')
-			h2 Hello!
-			h6 Please Login To Your Account
+			h2 你好!
+			h6 请登录
 			.form-group
 				label Username
 				input.form-control(type='text', id='user-tf', name='user')
@@ -21,16 +21,6 @@ block content
 					span.glyphicon.glyphicon-lock
 					| Sign In
 			.clearfix
-			hr
-			.btm-links
-				#forgot-password
-					a(href='#') Forgot Your Password?
-				#create-account
-					a(href='/signup') Create An Account
-			.clearfix
-
-	include modals/alert
-	include modals/lost-password
 
 block scripts
 	script(src='/vendor/jquery-2.2.3.min.js')

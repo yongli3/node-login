@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 // customize the account settings form //
 	
-	$('#account-form h2').text('Account Settings');
+	$('#account-form h2').text('当前用户');
 	$('#account-form #sub1').text('Here are the current settings for your account.');
 	$('#user-tf').attr('disabled', 'disabled');
 	$('#account-form-btn1').html('Delete');
